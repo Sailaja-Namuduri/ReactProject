@@ -1,0 +1,19 @@
+.menu-items{
+    text-align: right;
+    background: #cfcfc5;
+    line-height: 40px;
+}
+
+.menu-items > a{
+    margin-right: 15px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.menu{
+    margin-bottom: 50px;
+}
