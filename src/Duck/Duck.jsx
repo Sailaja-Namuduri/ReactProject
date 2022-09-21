@@ -9,7 +9,7 @@ function template() {
 
   return (
     <div style={{position:'relative',top:t}}>
-      <div className="duck" style={{border:'1px solid red',display:'inline-block',position:'absolute',left:l,zIndex:9}}>
+      <div className="duck" style={{display:'inline-block',position:'absolute',left:l,zIndex:9}}>
         <img src={duckImg} width={100} height={100}/>
       </div>
     </div>

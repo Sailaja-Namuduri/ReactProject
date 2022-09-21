@@ -8,12 +8,12 @@ export const Contact = () => {
   const [lft,setLft]=React.useState(0);
   const [tp,setTp]=React.useState(0);
 
-  const fnClick=()=>{
+  const fnClick=(l,t)=>{
     debugger;
-    setLft(100);
-    setTp(10);
-    console.log(lft);
-    console.log(tp);
+    setLft(l);
+    setTp(t);
+    console.log(l);
+    console.log(t);
   }
 
   return (
