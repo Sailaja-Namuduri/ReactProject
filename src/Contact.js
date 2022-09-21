@@ -15,9 +15,7 @@ export const Contact = () => {
     console.log(lft);
     console.log(tp);
   }
-  React.useEffect(()=>{
-    console.log('rerendering')
-  },[lft,tp])
+ 
   return (
     <div>
       <Duck l={lft} t={tp}/>
