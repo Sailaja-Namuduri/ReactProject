@@ -5,7 +5,7 @@ import NestImage from "./NestImage";
 
 function template() {
   return (
-    <div className="nest" style={{position:'relative'}}>
+    <div className="nest" style={{position:'relative',top:150}}>
       
       <div style={{display:'inline-block',position:'absolute',top:"10px",left:"100px"}}>
       <NestImage image={nest_Image}/>
