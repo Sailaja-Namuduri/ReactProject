@@ -15,7 +15,6 @@ export const Contact = () => {
     console.log(lft);
     console.log(tp);
   }
- 
   return (
     <div>
       <Duck l={lft} t={tp}/>
