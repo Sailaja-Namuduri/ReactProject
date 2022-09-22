@@ -8,11 +8,14 @@ function template() {
   console.log('duck top::',{t});
 
   return (
-    <div style={{position:'relative',top:t}}>
-      <div className="duck" style={{display:'inline-block',position:'absolute',left:l,zIndex:9}}>
-        <img src={duckImg} width={100} height={100}/>
+    <>
+      <div style={{position:'relative',top:t}}>
+        <div className="duck" style={{display:'inline-block',position:'absolute',left:l,zIndex:9}}>
+          <img src={duckImg} width={100} height={100}/>
+        </div>
       </div>
-    </div>
+      
+    </>
   );
 };
 
