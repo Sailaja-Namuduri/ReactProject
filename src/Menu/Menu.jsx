@@ -16,7 +16,7 @@ function template() {
          <div className="menu-items">
            <a href="#/home">Home</a>
            <a href="#/about">About</a>
-           <a href="#/contact">Contact</a>
+           <a href="#/game">Game</a>
            <a href="#/list">List</a>
            <a href="#/reuse">Reusable Components</a>
            <a href="#/exceptions" >Exceptions</a>
@@ -29,7 +29,7 @@ function template() {
               <Routes>
                   <Route path='/home'  element={<Home />}  />
                   <Route path='/about'   element={<About />} />
-                  <Route path='/contact'  element={<Contact />}  />
+                  <Route path='/game'  element={<Contact />}  />
                   <Route path='/list'  element={<MyList />}  />
                   <Route path='/reuse'  element={<MyReuse />}  />
                   <Route path='/exceptions'  element={<Exceptions />}  />
