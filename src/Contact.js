@@ -18,7 +18,7 @@ export const Contact = () => {
     <div style={{position:'relative'}}>
       <DuckHome clik={fnClick}/>
       <Duck l={lft} t={tp} />
-      <Nest clik={fnClick}/>
+      <Nest clik={fnClick} />
     </div>
   )
 }
