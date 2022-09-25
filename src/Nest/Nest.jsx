@@ -4,11 +4,14 @@ import nest_Image from '../Images/nest.png';
 import NestImage from "./NestImage";
 import Eggs from "../Eggs/Eggs";
 import Ducklings from "../Ducklings";
+import { store } from "../reduxStore/store";
 
 function template() {
   const {clik}=this.props;
 
-  const clikHigher1=()=>{
+  const clikHigher1=()=>{ 
+    store.dispatch({type:'NestClick',nestClick:true})
+    store.dispatch({type:'HomeClick',homeClick:false})
     var eggLay=setTimeout(()=>{this.setState({
       nestClick1:true
     })},2000)
@@ -24,6 +27,8 @@ function template() {
 
   }
   const clikHigher2=()=>{
+    store.dispatch({type:'NestClick',nestClick:true})
+    store.dispatch({type:'HomeClick',homeClick:false})
     var eggLay=setTimeout(()=>{this.setState({
       nestClick2:true
     })},2000)
@@ -36,6 +41,9 @@ function template() {
     clik(650,-10);
   }
   const clikHigher3=()=>{
+    store.dispatch({type:'NestClick',nestClick:true})
+    store.dispatch({type:'HomeClick',homeClick:false})
+
     var eggLay=setTimeout(()=>{this.setState({
       nestClick3:true
     })},2000)
@@ -48,6 +56,9 @@ function template() {
     clik(1250,110);
   }
   const clikHigher4=()=>{
+    store.dispatch({type:'NestClick',nestClick:true})
+    store.dispatch({type:'HomeClick',homeClick:false})
+
     var eggLay=setTimeout(()=>{this.setState({
       nestClick4:true
     })},2000)
@@ -60,6 +71,9 @@ function template() {
     clik(440,220);
   }
   const clikHigher5=()=>{
+    store.dispatch({type:'NestClick',nestClick:true})
+    store.dispatch({type:'HomeClick',homeClick:false})
+
     var eggLay=setTimeout(()=>{this.setState({
       nestClick5:true
     })},2000)
