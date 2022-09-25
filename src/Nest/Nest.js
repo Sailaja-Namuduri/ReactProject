@@ -1,4 +1,5 @@
 import React    from "react";
+import { connect } from "react-redux";
 import template from "./Nest.jsx";
 
 class Nest extends React.Component {

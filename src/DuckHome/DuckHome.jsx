@@ -1,10 +1,12 @@
 import "./DuckHome.css";
 import React from "react";
 import hut from '../Images/hut.png';
+import { store } from "../reduxStore/store";
 function template() {
   const {clik}=this.props;
   const homeClick=()=>{
-    clik(-20,-80)
+    clik(-20,-80);
+    store.dispatch({type:'HomeClick',homeClick:true})
   }
   return (
     <div className="duck-home" style={{display:'inline-block',cursor:'pointer'}} onClick={homeClick}>
